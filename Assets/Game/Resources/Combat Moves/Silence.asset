@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf01d04594b1a204980701fef3bded61, type: 3}
+  m_Name: Silence
+  m_EditorClassIdentifier: 
+  name: Silence
+  description: Silence the enemy, hindering it from using Magical Abilities.
+  type: {fileID: 11400000, guid: b2e71b6f84c1e6249a80e30eabb34c4d, type: 2}
+  actionType: 2
+  targets: 1
+  effectType: 3
+  power: 0
+  cooldown: 5
+  duration: 3
+  icon_image: {fileID: 21300000, guid: 75feb710b6daca941b64d7f16fbfb831, type: 3}

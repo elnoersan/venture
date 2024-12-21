@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff4c2730e9547809bbbd89934d8737e, type: 3}
+  m_Name: Wizard Hat
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 21300000, guid: 91c55910e2e5a7b449ef8ed000040aa3, type: 3}
+  itemName: Wizard Hat
+  tooltipInfo:
+    title: Wizard Hat
+    subtitle: Head
+    body: '+5 Intellect
+
+      -1 Strength'
+  equipmentType: 0
+  statBonuses:
+  - statBonusType: 3
+    value: 5
+  - statBonusType: 1
+    value: -1
